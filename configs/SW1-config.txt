@@ -1,0 +1,19 @@
+vlan 10
+name HR
+vlan 20
+name IT
+vlan 30
+name SALES
+
+interface range fa3/1,fa4/1,g0/1
+  switchport mode access
+  switchport access vlan 10
+
+interface range fa5/1,fa6/1,g1/1
+  switchport mode access
+  switchport access vlan 20
+
+interface range fa7/1,fa8/1,g2/1
+  switchport mode access
+  switchport access vlan 30
+  

@@ -1,0 +1,14 @@
+interface g0/0
+  description ## GATEWAY FOR VLAN 10 ##
+  ip address 10.0.0.62 255.255.255.192
+  no shutdown
+
+interface g0/1
+  description ## GATEWAY FOR VLAN 20 ##
+  ip address 10.0.0.126 255.255.255.192
+  no shutdown
+
+interface g0/2
+  description ## GATEWAY FOR VLAN 30 ##
+  ip address 10.0.0.190 255.255.255.192
+  no shutdown
